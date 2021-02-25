@@ -1,4 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import router from './router'
 
-createApp(App).mount('#app')
+// style
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.css'
+
+// create instance
+createApp(App).use(router).mount('#app')
