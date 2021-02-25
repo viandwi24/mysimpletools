@@ -11,6 +11,7 @@ const routes = [
 ]
 
 const router = createRouter({
+  // base: '/mysimpletools',
   history: createWebHistory(),
   routes,
 })
